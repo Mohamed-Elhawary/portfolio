@@ -23,6 +23,10 @@ Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 * HTML
 * CSS  
 
+## Libraries  
+
+* Font Awesome  
+* Normalize.css  
 
 ## Author
 
