@@ -12,7 +12,7 @@ One HTML Page Template for your Portfolio.
 
 ## Getting Started
 
-You can try the Template from [here](https://mohamed-elhawary.github.io/potfolio/)
+You can try the Template from [here](https://mohamed-elhawary.github.io/portfolio/)
 
 ## Prerequisites
 
