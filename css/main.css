@@ -1,0 +1,321 @@
+/*Start Main Rules*/
+
+body {font-family: sans-serif}
+
+.container {width: 1170px;margin: auto;}
+
+/*Note: we can put one and only (overflow:hidden) in (.container) only and delet this property from any element has it , because all elements in this template that have float for their internal elements , have (.container) that contains them, and this will short your code of course, but if there is any element has float to its internal elements and there isn't (.container) contains this element,YOU MUST make (overflow:hidden) for this element definitely */
+
+.clear-internal-float {clear: both}
+
+/*End Main Rules*/
+
+/*Start Header*/
+
+.header .slider {
+    height: 600px;
+    background-image: url('../images/slider.jpg');
+    background-size: cover; /*CSS3*/
+    -webkit-background-size: cover; /*CSS3*/
+    -moz-background-size: cover; /*CSS3*/
+    -o-background-size: cover; /*CSS3*/
+}
+
+.header .slider .container .intro {padding-top: 200px;text-align: center}
+
+.header .slider .container .intro h2 {
+    font-size: 40px;
+    border-bottom: 3px solid #FFF;
+    border-top: 3px solid #FFF;
+    width: 50%;
+    margin: auto;
+    padding: 5PX 0;
+    color: #FFF
+} 
+
+.header .slider .container .intro button {
+    margin-top: 40px;
+    background: none;
+    font-size: 25px;
+    width: 180px;
+    border: 3px solid #FFF;
+    padding: 8px 10px
+}
+
+.header .slider .container .intro button a {color: #FFF}
+
+.header .slider .container .intro button:hover {background: #333;}
+
+.header .navbar {background: #252F31;color: #FFF;overflow: hidden}
+
+.header .navbar .container h2 {text-transform: uppercase;color: #FFF}
+
+.header .navbar .container h2 span {color: #2ECC71}
+
+.header .navbar .container ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right
+}
+
+.header .navbar .container ul li {float: left;padding: 10px}
+
+.header .navbar .container ul li a {text-decoration: none;color: #FFF}
+
+.header .navbar .container ul li a:hover,
+.header .navbar .container ul li.active a {color: #30B576}
+
+/*End Header*/
+
+/*Start Features*/
+
+.features {overflow: hidden;padding-top: 40px;padding-bottom: 50px}
+
+.features .container .box {width: 33.33333%;height: 150px;}
+
+.features .container .box h2 {text-transform: uppercase;text-align: center}
+
+.features .container .box p {padding-right: 25px;text-align: justify}
+
+/*End Features*/
+
+/*Start About Me*/
+
+.about-me {background: #F2F2F2;overflow: hidden;}
+
+.about-me .container .image {width: 40%;margin-top: 42px}
+
+.about-me .container .image img {
+    width: 100%;
+    border: 2px groove #CCC;
+    padding: 3px;
+    box-shadow: 8px 8px 8px #999 /*CSS3*/
+}
+
+.about-me .container .info {width: 60%}
+
+.about-me .container .info h2 {margin: 40px 0 20px 40px}
+
+.about-me .container .info > p {margin-left: 40px}
+
+.about-me .container .info > p:last-of-type {margin: 20px 0 0 40px} /**CSS3*/
+
+/*Note: If you don't need to change any property of the this paragraph (the last or the second paragraph) and make it has the same properties of the first paragraph EXCEPT one only property want to do for it >> (margin-top:40px) to make enough distance above it, So you don't need to use this CSS3 code above and you can easily make this property >> (margin-top) by getting in html page and put <br> tags between the 2 paragraphs as you want until you reach the exactly distance you want, BUT if there are other different properties between the 2 paragraphs, you have to use the CSS3 code (last-of-type) to can add these properties to the second paragraph ,AND in our case above, the second pragraph hasn't any different properties compared to the first paragraph properties EXCEPT (margin-top) ,So we can use the <br> method in this case.*/ 
+
+.about-me .container .info .hobbies {overflow: hidden;margin: 20px 0 0 40px;}
+
+.about-me .container .info .hobbies .content {width: 44%;margin-right: 6%}
+
+.about-me .container .info .hobbies .content .icon {width: 12%;margin-top: 40px;margin-right: 8%}
+
+.about-me .container .info .hobbies .content .icon img {width: 100%; }
+
+.about-me .container .info .hobbies .content .text {width: 80%;}
+
+.about-me .container .info .hobbies .content .text h3 {margin-bottom: 10px}
+
+.about-me .container .info .hobbies .content .text p {margin-top: 0}
+
+/*End About Me*/
+
+/*Start My Skills*/
+
+.my-skills {padding-top: 30px;padding-bottom: 30px;overflow: hidden}
+
+.my-skills .container .skills,.my-skills .progress {width: 50%}
+
+.my-skills .container .progress .technique div {background: #F2F2F2;}
+
+.my-skills .container .progress .technique {margin-left: 25px}
+
+.my-skills .container .progress .technique div span {
+    background: #2DCC70;
+    display: block;
+    height: 25px;
+    color: #FFF;
+    text-align: right;
+    line-height: 25px;
+    font-weight: bold
+}
+
+/*End My Skills*/
+
+/*Start Resume*/
+
+.resume {
+    background: #F2F2F2;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+/*End Resume*/
+
+/*Start My Education*/
+
+.my-education {padding-top: 30px;padding-bottom: 30px;overflow: hidden}
+
+.my-education .container .main,.my-education .exp {width: 50%}
+
+.my-education .container .exp .certificates {margin-top: 60px;margin-left: 50px}
+
+.my-education .container .exp .certificates span {display: block;color: #999}
+
+.my-education .container .exp .certificates span strong {color: #9999A6}
+
+.my-education .container .exp .certificates span:last-of-type {
+    color: #FFF;
+    background: #2DCC70;
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 15px;
+    border: 2px dotted #9999A6
+}
+
+/*End My Education*/
+
+/*Start Testimonials*/
+
+.testimonials {
+    background: #F2F2F2;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.testimonials .container q {color: #888;font: italic bold 18px/1.7 Arial,Tahoma;}
+
+.testimonials .container ul {list-style: none;padding-left: 0}
+
+.testimonials .container ul li {
+    display: inline-block;
+    border: 2px solid #2DCC70;
+    height: 15px;
+    width: 15px;
+}
+
+.testimonials .container ul li:hover,
+.testimonials .container ul li.active {background: #2DCC70;cursor: pointer}
+
+/*End Testimonials*/
+
+/*Start Portfolio*/
+
+.portfolio {padding-top: 50px;padding-bottom: 50px;text-align: center}
+
+.portfolio .container .my-works {overflow: hidden}
+
+.portfolio .container .my-works div {float: left;width: 33.333%;margin-bottom: 10px}
+
+.portfolio .container .my-works div img {
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    border: 1px solid #CCC;
+    box-shadow: 10px 10px 10px #CCC /*CSS3*/
+} 
+
+/*Start Contact Me*/
+
+.contact-me {background: #252F31;overflow: hidden;padding: 50px 0 70px;}
+
+.contact-me .container .info,.contact-me .form {width: 50%}
+
+.contact-me .container .info h2 {color: #FFFFF2}
+
+.contact-me .container .info p {color: #6A6E6D}
+
+.contact-me .container .info p strong {color: #FFFFF2}
+
+.contact-me .container .form form {margin-left: 50px;margin-top: 25px}
+
+.contact-me .container .form label {color: #FFFFF2;font-weight: bold;}
+
+.contact-me .container .form input[type="text"],
+.contact-me .container .form textarea {
+    background: #4B5557;
+    padding: 10px;
+    display: block;
+    margin: 15px 0;
+    border-style: none;
+    width: 80%
+}
+
+.contact-me .container .form textarea {min-height: 200px}
+
+.contact-me .container .form input[type="submit"] {
+    background: #191E22;
+    color: #FFFFF2;
+    padding: 7px 20px;
+    border-style: none;
+    font-weight: bold
+}
+
+.contact-me .container .form input[type="submit"]:hover{
+    background: #FFFFF2;
+    color: #191E22;
+    cursor: pointer;
+    border: 3px solid #4B5557
+}
+
+/*End Contact Me*/
+
+/*Start Footer*/
+
+.footer {
+    background: #191E22;
+    color: #6A6D62;
+    padding: 10px 0;
+    text-align: center;
+    overflow: hidden
+}
+
+.footer span {
+    float: left;
+    text-align: justify;
+    margin-left: 20px;
+    font-weight: bold
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    margin-right: 20px
+}
+
+.footer ul li {display: inline-block;margin: 5px}
+
+.fab{font-size: 25px;}
+
+.fab:hover {color: #FFFFF2;cursor: pointer}
+
+/*End Footer*/
+
+/*Start TEMPLATE Framework*/
+
+p {line-height: 1.7;color: #666}
+
+h2,h3 {color: #777}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 3px solid #2DCC70;
+    background: #FFF;
+    margin-top: 10px
+}
+
+button:hover {background: #2DCC70;cursor: pointer}
+
+button a {text-decoration: none;color: #2DCC70}
+
+button a:hover {color: #FFF}
+
+.fl-left {float: left}
+
+/*End TEMPLATE Framework*/
