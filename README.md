@@ -6,20 +6,14 @@ Portfolio is a HTML landing page website for a personal portfolio.
 
 (Not Responsive)
 
+You can view the website from [here](https://portfolio-14.netlify.app/)
+
 ![Screenshot](mockup.png)  
 
 ## Demo
 
 ![portfolio-simple-portfolio-googl](https://user-images.githubusercontent.com/69651552/95006506-976c6a80-0605-11eb-94ed-79c3cfbdda88.gif)  
 
-
-## Getting Started
-
-You can try the Template from [here](https://mohamed-elhawary.github.io/portfolio/)
-
-## Prerequisites
-
-Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 
 ## Built With
 
@@ -33,15 +27,17 @@ Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 
 ## Author
 
-* Mohamed Elhawary  
+* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/)  
 
-## Contact Me  
+## Contact me through my social accounts
 
-* Email: mohamed.k.elhawary@gmail.com
+* Email: mohamed.k.elhawary@gmail.com  
 
-## Deploy with Me
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
 
-Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with you, just test it First.
+* [Codepen](https://codepen.io/Mohamed-ElHawary)
+
+* [Behance](https://www.behance.net/mohamed-elhawary14)
 
 ## License
 
